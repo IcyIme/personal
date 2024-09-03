@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/obj/Debug/net8.0/compressed/ll1cr4hslc.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/obj/Debug/net8.0/scopedcss/bundle/Personal.styles.css",
+      "PackagePath": "staticwebassets/Personal.styles.css"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/img/Projects/UniCademy.jpg",
+      "PackagePath": "staticwebassets/img/Projects/UniCademy.jpg"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/img/Projects/quizerro.jpg",
+      "PackagePath": "staticwebassets/img/Projects/quizerro.jpg"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/img/logo.jpeg",
+      "PackagePath": "staticwebassets/img/logo.jpeg"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/img/person.png",
+      "PackagePath": "staticwebassets/img/person.png"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/icyime/RiderProjects/Personal/Personal/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Personal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Personal.props",
+      "PackagePath": "build\\Personal.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Personal.props",
+      "PackagePath": "buildMultiTargeting\\Personal.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Personal.props",
+      "PackagePath": "buildTransitive\\Personal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

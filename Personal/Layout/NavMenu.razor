@@ -1,0 +1,29 @@
+﻿@using BlazorStrap
+<BSNavbar Color="BSColor.Light">
+    <BSContainer Container="Container.Fluid">
+        <BSNavbarBrand Url="javascript:void(0);">
+            <img src="img/logo.jpeg" width="30" class="d-inline-block align-text-top"/>
+            Peter's world!
+        </BSNavbarBrand>
+        <BSCollapse IsInNavbar="true">
+            <Toggler>
+                <BSNavbarToggle/>
+            </Toggler>
+            <Content>
+                <BSNav MarginEnd="Margins.Auto" MarginBottom="Margins.Small" Class="mb-lg-0">
+                    <BSNavItem IsDropdown="true">
+                        <BSDropdown IsNavPopper="true" Placement="Placement.BottomEnd">
+                            <Toggler><BSToggle IsNavLink="true">Projects</BSToggle></Toggler>
+                            <Content>
+                                <BSDropdownItem Url="javascript:void(0);">UniCademy</BSDropdownItem>
+                                <BSDropdownItem Url="javascript:void(0);">Quizerro</BSDropdownItem>
+                                <BSDropdownItem IsDivider="true"/>
+                                <BSDropdownItem Url="javascript:void(0);">Docs</BSDropdownItem>
+                            </Content>
+                        </BSDropdown>
+                    </BSNavItem>
+                </BSNav>
+            </Content>
+        </BSCollapse>
+    </BSContainer>
+</BSNavbar>

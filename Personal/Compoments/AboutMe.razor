@@ -1,0 +1,27 @@
+<div class="text-center my-5">
+    <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">❤️ About Me ❤️</span></h2>
+    <p class="lead fw-light mb-4">"Coding Dreams: Code, Create, Innovate, Inspire Tomorrow's Tech."</p>
+    <p>Hello there! I'm <strong>Peter</strong>, a @yearsDifference years old passionate student at <strong>SPSIT</strong>, dedicated to mastering the art of programming. My journey in the world of technology has led me to immerse myself in the realms of <strong>C#, ASP.NET, HTML, CSS, and Blazor</strong>.</p>
+    <p>Currently, you can often find me buried in lines of code, crafting web applications and solutions that blend functionality and aesthetics seamlessly. I believe in the power of coding to transform ideas into reality, and I'm constantly seeking ways to expand my skill set and take on new challenges.</p>
+    <p>When I'm not engrossed in coding, I enjoy exploring the latest trends in web development and staying up-to-date with the ever-evolving tech landscape. I find immense satisfaction in solving intricate problems and contributing to the world of digital innovation.</p>
+    <p>As a student, I'm determined to soak up as much knowledge as possible, both within the classroom and beyond. I'm not just learning to code; I'm learning to create, to innovate, and to make a meaningful impact in the digital sphere.</p>
+    <p>Feel free to connect with me if you're interested in discussing programming, sharing ideas, or collaborating on exciting projects. Let's embark on this coding adventure together!</p>
+</div>
+
+@code
+{
+    private DateTime startDate = new DateTime(2005, 4, 14);
+    private DateTime currentDate = DateTime.Now;
+    private int yearsDifference;
+
+    protected override void OnInitialized()
+    {
+        yearsDifference = currentDate.Year - startDate.Year;
+
+        if (currentDate.Month < startDate.Month || 
+            (currentDate.Month == startDate.Month && currentDate.Day < startDate.Day))
+        {
+            yearsDifference--;
+        }
+    }
+}
