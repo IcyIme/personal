@@ -1048,3 +1048,4 @@
 /home/icyime/RiderProjects/Personal/Personal/obj/Debug/net8.0/scopedcss/Compoments/AboutMe.razor.rz.scp.css
 /home/icyime/RiderProjects/Personal/Personal/obj/Debug/net8.0/scopedcss/Compoments/FooterOfHome.razor.rz.scp.css
 /home/icyime/RiderProjects/Personal/Personal/obj/Debug/net8.0/scopedcss/Compoments/Projects.razor.rz.scp.css
+/home/icyime/RiderProjects/Personal/Personal/obj/Debug/net8.0/Personal.sourcelink.json
